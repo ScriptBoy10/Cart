@@ -1,0 +1,139 @@
+@media screen { 
+  body {
+      font-family: Arial, sans-serif, helvetica;
+      background: #4B2E6A;
+      /* margin: 0; */
+      padding: 40px;
+    }
+
+  @media (max-width: 480px){
+   #container {
+      max-width:100%;
+      width: 100%;
+      gap: 24px;    
+      overflow: visible;
+    }
+  }
+    
+
+    .card {
+      max-width: 450px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background: #e3f1ff;
+      margin: 15px 0;
+      padding: 12px;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit : cover;
+      margin-right: 15px;
+    }
+
+    .card-content {
+      flex: 1;
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #444;
+      margin: 4px 0;
+    }
+
+    .price{
+        margin-top: 15px;
+    }
+
+    .price p{
+      font-weight: bold;
+      font-size: 1rem;
+      margin: 4px 0;
+      display: block;
+      text-align: center;
+      margin-bottom: 15px; 
+    }
+
+    .btn{
+      display: inline-block;
+      background: #b693c2;
+      color: blue;
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #8d67a7;
+    }
+    #bams{
+      position: fixed;
+      background: #fff;
+      justify-content: space-between;
+      width: 280px;
+      margin-top: 7%;
+      display: none;
+      padding: 10px;
+    }
+    .none{
+      display: block;
+    }
+
+    .emmy{
+      font-weight: 100;
+      font-family: serif;
+    }
+
+    .seen span{
+      font-weight: 900;
+      font-size: 1.3em;
+      margin-left: 5px;
+    }
+    .owendu{
+      text-align: center;
+      background: rgb(250, 36, 36);
+      margin: 10px;
+      padding: 0.5em;
+      color: #fff;
+    }
+
+     .owendu:hover{
+      background: rgb(176, 13, 13);
+     }
+
+     .name{
+      display: none;
+      align-items: center;
+      background: #fff;
+      margin: 15px 0;
+      padding: 12px;
+     }
+.name img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
